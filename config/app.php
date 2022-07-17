@@ -187,6 +187,8 @@ return [
         Litecms\Contact\ContactServiceProvider::class,
         Litecms\Page\PageServiceProvider::class,
         Litecms\Blog\Providers\BlogServiceProvider::class,
+     //   Litecms\Ticket\Providers\TicketServiceProvider::class,
+        Litecms\TicketSystem\Providers\TicketSystemServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -231,6 +233,8 @@ return [
         'Block' => Litecms\Block\Facades\Block::class,
         'Contact' => Litecms\Contact\Facades\Contact::class,
         'Pages' => Litecms\Page\Facades\Pages::class,
+     //   'Tickets'  => Litecms\Ticket\Facades\Ticket::class,
+        'TicketSystem'  => Litecms\TicketSystem\Facades\TicketSystem::class
 
     ])->toArray(),
 
